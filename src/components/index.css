@@ -11,7 +11,9 @@
   margin-top: 0.5em;
 }
 .layout .btn {
-  margin-left: 1em;
+  -webkit-border-radius: 5px 0 0 5px;
+  -moz-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
 }
 .layout .error-text {
   text-align: center;

@@ -12,10 +12,10 @@ export const Repos: FC<IRepoContainer> = ({repos}: IRepoContainer) => {
 
     return (
         <div className="repo">
-            {repos.length === 0 ? noRepoWarning : repos.map(({url, name, description}: IRepo) => (
+            {repos.length === 0 ? noRepoWarning : repos.map(({html_url, name, description}: IRepo) => (
                     <Card className="repo__item">
                         <Card.Body>
-                            <a href={url}><Card.Title>{name}</Card.Title></a>
+                            <a href={html_url}><Card.Title>{name}</Card.Title></a>
                             <Card.Subtitle className="repo__description">
                                 {description}
                             </Card.Subtitle>

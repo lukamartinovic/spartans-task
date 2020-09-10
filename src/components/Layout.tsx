@@ -7,8 +7,8 @@ import {Search} from "./Search";
 import {UserCardsContainer} from "./Cards";
 import {User} from "./User/user";
 import {ErrorDisplay} from './ErrorDisplay';
-import {IStore} from "../state/types";
-import logo from '../images/spartan.png'
+import {IStore} from "state/types";
+import logo from 'images/spartan.png'
 
 export const Layout = () => {
     const state = useSelector((store: IStore) => store.userReducer);

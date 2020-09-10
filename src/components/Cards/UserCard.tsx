@@ -1,7 +1,7 @@
 import React, {FC} from 'react';
 import Card from 'react-bootstrap/Card'
 import {useDispatch} from "react-redux";
-import {fetchUser} from "../../state/users/thunks";
+import {fetchUser} from "state/users/thunks";
 import {IUserCard} from './types'
 
 export const UserCard: FC<IUserCard> = (user: IUserCard) => {

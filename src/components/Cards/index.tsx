@@ -1,7 +1,7 @@
 import React from 'react';
 import {useSelector} from "react-redux";
 import {UserCard} from "./UserCard";
-import {IStore} from "../../state/types";
+import {IStore} from "state/types";
 import {IUserCard} from "./types";
 import "./index.css";
 

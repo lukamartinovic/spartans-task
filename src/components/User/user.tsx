@@ -2,7 +2,7 @@ import React from 'react';
 import {useSelector} from "react-redux";
 import Card from "react-bootstrap/Card";
 import {Repos} from './Repos';
-import {IStore} from "../../state/types";
+import {IStore} from "state/types";
 import './index.css';
 
 export const User = () => {
@@ -12,8 +12,8 @@ export const User = () => {
     return (
         <div className="user">
             <Card>
-                <a href={loginUrl}>
-                    <Card.Img className="user__img" src={avatar_url}/>
+                <a className="user__img" href={loginUrl}>
+                    <Card.Img src={avatar_url}/>
                 </a>
                 <Card.Body>
                     <Card.Title>

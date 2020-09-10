@@ -4,9 +4,9 @@ import {useDispatch, useSelector} from "react-redux";
 import Button from "react-bootstrap/Button";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Form from 'react-bootstrap/Form'
-import {fetchUsers} from "../../state/users/thunks";
-import {IStore} from "../../state/types";
-import {clearUser} from "../../state/users/actions";
+import {fetchUsers} from "state/users/thunks";
+import {IStore} from "state/types";
+import {clearUser} from "state/users/actions";
 
 export const Search = () => {
     const dispatch = useDispatch();
@@ -27,8 +27,8 @@ export const Search = () => {
                 Start typing the name of a GitHub user you're looking for
             </p>
             <Form inline>
+                {fetchedUser && <Button onClick={() => dispatch(clearUser())}>⇦</Button>}
                 <Form.Control onChange={onChange} type="text" placeholder="Enter username"/>
-                {fetchedUser && <Button onClick={() => dispatch(clearUser())}>Back</Button>}
             </Form>
         </Jumbotron>
     )
