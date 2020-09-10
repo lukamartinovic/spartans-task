@@ -1,9 +1,15 @@
 export interface IUser {
-    login: string;
-    public_repos: number;
-    created_at: Date;
+    login: string,
+    avatar_url: string
 }
 
 export interface IUserCard {
-    user: IUser;
+    user: IUser,
+    login: string,
+    avatar_url: string,
+    name: string,
+    public_repos: number,
+    followers: number,
+    following: number
 }
+
