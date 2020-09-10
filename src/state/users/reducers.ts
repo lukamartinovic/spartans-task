@@ -5,6 +5,8 @@ export const userReducer = (state: object = {}, action: IUserAction) => {
     switch (action.type) {
         case actionTypes.usersFetchingError:
             return {...state, isError: action.isError, error: action.error};
+        case actionTypes.userFetchingError:
+            return {...state, isError: action.isError, error: action.error};
         case actionTypes.usersFetching:
             return {...state, usersFetching: action.fetching};
         case actionTypes.userFetching:
