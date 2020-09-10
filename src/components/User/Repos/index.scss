@@ -1,0 +1,18 @@
+.repo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 60%;
+  justify-content: space-around;
+
+  &__item {
+    width: 47%;
+    height: 10em;
+    margin: 0.5em;
+  }
+
+  &__description {
+    font-size: 0.8em;
+    overflow: hidden;
+  }
+}

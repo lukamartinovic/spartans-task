@@ -1,0 +1,15 @@
+.user {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+
+  &__img {
+    width: 300px;
+  }
+
+  &__follow {
+    display: flex;
+    flex-direction: column;
+  }
+
+}

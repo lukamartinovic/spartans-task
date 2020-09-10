@@ -1,0 +1,16 @@
+.user {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.user__img {
+    width: 300px;
+}
+
+.user__follow {
+    display: flex;
+    flex-direction: column;
+}
+
+/*# sourceMappingURL=index.css.map */

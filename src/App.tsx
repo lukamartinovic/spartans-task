@@ -1,21 +1,15 @@
 import React from 'react';
 import {Provider} from 'react-redux';
-import {BrowserRouter as Router} from 'react-router-dom';
-import {store} from './State/store'
-import 'bootstrap/dist/css/bootstrap.css';
-import {Layout} from "./Components/Layout";
-import './Components/style.css'
+import {store} from './state/store'
+import {Layout} from "./components/Layout";
 
-function App() {
-    return (
-        <Provider store={store}>
-            <Router>
-                <div className="App">
-                    <Layout/>
-                </div>
-            </Router>
-        </Provider>
-    );
-}
+import 'bootstrap/dist/css/bootstrap.css';
+import './components/index.css'
+
+const App = () => (
+    <Provider store={store}>
+        <Layout/>
+    </Provider>
+);
 
 export default App;

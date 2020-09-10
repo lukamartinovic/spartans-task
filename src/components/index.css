@@ -1,0 +1,30 @@
+.layout .card-title {
+  font-weight: normal;
+  font-size: 1em;
+}
+.layout .card-subtitle {
+  max-height: 70%;
+  font-weight: normal;
+}
+.layout .card-text {
+  font-size: 0.8em;
+  margin-top: 0.5em;
+}
+.layout .btn {
+  margin-left: 1em;
+}
+.layout .error-text {
+  text-align: center;
+}
+.layout .spinner-border {
+  position: fixed;
+  top: 50vh;
+  right: 50vw;
+}
+.layout .navbar-logo-image {
+  margin-right: 1em;
+  width: 30px;
+  height: 30px;
+}
+
+/*# sourceMappingURL=index.css.map */

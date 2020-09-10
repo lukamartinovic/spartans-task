@@ -1,43 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="efc2e1e1-7660-4379-96b1-e4ad78f52bbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/spartan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Cards/CardContainer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Cards/Cards.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ErrorDisplay.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/User/Repos/RepoContainer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/User/Repos/types.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/User/User.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/User/User.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/2456987.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/spartan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/State/Users/types.d.ts" afterDir="false" />
+    <list default="true" id="efc2e1e1-7660-4379-96b1-e4ad78f52bbc" name="Default Changelist" comment="wip">
+      <change afterPath="$PROJECT_DIR$/src/components/Cards/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Cards/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Cards/types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ErrorDisplay.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/User/Repos/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/User/Repos/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/User/Repos/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/User/Repos/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/User/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/User/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/User/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/User/user.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/2456987.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/state/types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/state/users/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/state/users/consts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/state/users/thunks.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Cards/UserCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Cards/UserCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Cards/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Cards/types.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Search/Search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Search/Search.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/State/actionTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/State/actionTypes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/State/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/State/Users/actions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/State/reducers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/State/Users/reducers.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/State/rootReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/State/rootReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/State/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/State/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/State/thunks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/State/Users/thunks.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/State/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/State/types.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Cards/CardContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cards/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Cards/Cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cards/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Cards/UserCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cards/UserCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Cards/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ErrorDisplay.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Search/Search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Search/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/User/Repos/RepoContainer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/User/Repos/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/User/Repos/types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/User/User.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/User/User.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/2456987.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/spartan.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/spartan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/Users/actions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/Users/reducers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/users/reducers.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/Users/thunks.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/Users/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/users/types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/actionTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/actionTypes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/rootReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/rootReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,15 +62,92 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Search/index.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/state/users/reducers.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/state/users/thunks.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/axios/index.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="76" column="2" selection-start-line="76" selection-start-column="2" selection-end-line="76" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tsconfig.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/State/Users/thunks.ts">
+        <entry file="file://$PROJECT_DIR$/src/state/users/types.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Cards/types.d.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="32">
-              <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/state/users/consts.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/state/rootReducer.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/state/users/actions.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -68,8 +158,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
-        <option value="TypeScript File" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -87,6 +177,9 @@
       <find>bu</find>
       <find>errorDescription</find>
       <find>react</find>
+      <find>IUser</find>
+      <find>: []</find>
+      <find>: any</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -98,27 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/index.tsx" />
-        <option value="$PROJECT_DIR$/src/Components/Search/Search.ts" />
-        <option value="$PROJECT_DIR$/src/Components/Cards/User.tsx" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/store.js" />
-        <option value="$PROJECT_DIR$/src/store.ts" />
-        <option value="$PROJECT_DIR$/src/Reducers/rootReducer.js" />
-        <option value="$PROJECT_DIR$/src/Reducers/rootReducer.ts" />
-        <option value="$PROJECT_DIR$/src/State/thunks.js" />
-        <option value="$PROJECT_DIR$/src/State/thunks.ts" />
-        <option value="$PROJECT_DIR$/src/State/actions.ts" />
-        <option value="$PROJECT_DIR$/src/State/reducers.ts" />
-        <option value="$PROJECT_DIR$/src/State/Users/rootReducer.ts" />
-        <option value="$PROJECT_DIR$/src/State/Repositories/types.d.ts" />
-        <option value="$PROJECT_DIR$/src/State/rootReducer.ts" />
-        <option value="$PROJECT_DIR$/src/Components/Cards/CardContainer.ts" />
-        <option value="$PROJECT_DIR$/src/State/store.ts" />
-        <option value="$PROJECT_DIR$/src/Components/Cards/UserCardContainer.tsx" />
-        <option value="$PROJECT_DIR$/src/State/Repositories/actions.ts" />
-        <option value="$PROJECT_DIR$/src/State/Repositories/reducers.ts" />
-        <option value="$PROJECT_DIR$/src/State/Repositories/thunks.ts" />
         <option value="$PROJECT_DIR$/src/Components/Cards/Cards.css" />
         <option value="$PROJECT_DIR$/src/Components/User/User.ts" />
         <option value="$PROJECT_DIR$/src/react-app-env.d.ts" />
@@ -134,7 +206,6 @@
         <option value="$PROJECT_DIR$/src/Components/Repos/types.d.ts" />
         <option value="$PROJECT_DIR$/src/Components/Repos/RepoContainer.tsx" />
         <option value="$PROJECT_DIR$/src/Components/Cards/Cards.scss" />
-        <option value="$PROJECT_DIR$/src/App.tsx" />
         <option value="$PROJECT_DIR$/src/Components/User/Repos/types.d.ts" />
         <option value="$PROJECT_DIR$/src/Components/User/Repos/RepoContainer.tsx" />
         <option value="$PROJECT_DIR$/src/Components/ErrorDisplay.js" />
@@ -145,10 +216,32 @@
         <option value="$PROJECT_DIR$/src/Components/ErrorDisplay.tsx" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/Components/User/User.scss" />
-        <option value="$PROJECT_DIR$/src/Components/Layout.tsx" />
-        <option value="$PROJECT_DIR$/src/Components/style.scss" />
         <option value="$PROJECT_DIR$/public/manifest.json" />
         <option value="$PROJECT_DIR$/src/State/Users/thunks.ts" />
+        <option value="$PROJECT_DIR$/src/App.tsx" />
+        <option value="$PROJECT_DIR$/src/Components/style.scss" />
+        <option value="$PROJECT_DIR$/src/Components/Layout.tsx" />
+        <option value="$PROJECT_DIR$/src/components/ErrorDisplay.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Cards/CardContainer.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Cards/index.tsx" />
+        <option value="$PROJECT_DIR$/src/components/index.scss" />
+        <option value="$PROJECT_DIR$/src/components/Cards/UserCard.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Cards/types.d.ts" />
+        <option value="$PROJECT_DIR$/src/components/User/index.tsx" />
+        <option value="$PROJECT_DIR$/src/state/types.d.ts" />
+        <option value="$PROJECT_DIR$/src/components/User/Repos/RepoContainer.tsx" />
+        <option value="$PROJECT_DIR$/src/components/User/index.scss" />
+        <option value="$PROJECT_DIR$/src/components/User/Repos/index.scss" />
+        <option value="$PROJECT_DIR$/src/components/User/user.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Layout.tsx" />
+        <option value="$PROJECT_DIR$/src/components/User/Repos/index.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Search/Search.tsx" />
+        <option value="$PROJECT_DIR$/src/state/users/actions.ts" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/src/state/users/consts.ts" />
+        <option value="$PROJECT_DIR$/src/state/users/thunks.ts" />
+        <option value="$PROJECT_DIR$/src/components/Search/index.tsx" />
+        <option value="$PROJECT_DIR$/src/state/users/types.d.ts" />
       </list>
     </option>
   </component>
@@ -187,7 +280,34 @@
               <item name="spartanstask" type="b2602c69:ProjectViewProjectNode" />
               <item name="spartanstask" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spartanstask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spartanstask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Cards" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spartanstask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spartanstask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="index.scss" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="spartanstask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spartanstask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="state" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spartanstask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spartanstask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="state" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -266,7 +386,7 @@
       <workItem from="1599676742505" duration="14883000" />
       <workItem from="1599735158934" duration="1805000" />
       <workItem from="1599736975301" duration="4467000" />
-      <workItem from="1599741454416" duration="10185000" />
+      <workItem from="1599741454416" duration="18066000" />
     </task>
     <task id="LOCAL-00001" summary="set up redux, thunk and added actions for fetching users">
       <created>1599663703407</created>
@@ -275,11 +395,18 @@
       <option name="project" value="LOCAL" />
       <updated>1599663703407</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="wip">
+      <created>1599753583367</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599753583367</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58624000" />
+    <option name="totallyTimeSpent" value="66505000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -294,17 +421,39 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24815595" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.37594798" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="TypeScript" order="9" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2881907" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24815595" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32932165" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.37594798" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.37594798" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.32936078" />
@@ -314,22 +463,18 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="set up redux, thunk and added actions for fetching users" />
-    <option name="LAST_COMMIT_MESSAGE" value="set up redux, thunk and added actions for fetching users" />
+    <MESSAGE value="/" />
+    <MESSAGE value="wip" />
+    <option name="LAST_COMMIT_MESSAGE" value="wip" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/setupTests.ts" />
-    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Search/types.d.ts" />
-    <entry file="file://$PROJECT_DIR$/src/store.js" />
     <entry file="file://$PROJECT_DIR$/src/store.ts" />
     <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -365,117 +510,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Cards/Cards.css.map">
+    <entry file="file://$PROJECT_DIR$/src/components/Cards/index.css.map">
       <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Cards/Cards.css">
+    <entry file="file://$PROJECT_DIR$/src/components/Cards/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/User/User.css.map">
+    <entry file="file://$PROJECT_DIR$/src/components/User/index.css.map">
       <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/User/User.css">
+    <entry file="file://$PROJECT_DIR$/src/components/User/index.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Cards/UserCard.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Cards/types.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Repos/Repo.ts" />
-    <entry file="file://$PROJECT_DIR$/src/Components/Search/Search.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/User/User.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Cards/Cards.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Cards/CardContainer.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/User/Repos/types.d.ts">
+    <entry file="file://$PROJECT_DIR$/src/components/User/Repos/types.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/User/Repos/RepoContainer.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/State/actionTypes.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/State/rootReducer.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -486,94 +543,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/State/Users/actions.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
-          <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/State/store.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/State/types.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/State/Users/types.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/ErrorDisplay.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/State/Users/reducers.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/style.css.map">
+    <entry file="file://$PROJECT_DIR$/src/components/index.css.map">
       <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/style.css">
+    <entry file="file://$PROJECT_DIR$/src/components/index.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/User/User.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/logo192.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/logo512.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Layout.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -605,18 +586,197 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="-252">
           <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/State/Users/thunks.ts">
+    <entry file="file://$PROJECT_DIR$/src/App.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        <state relative-caret-position="192">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ErrorDisplay.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/state/types.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Layout.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/User/Repos/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/User/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/User/user.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/User/Repos/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Cards/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Cards/UserCard.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Cards/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/state/store.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/state/actionTypes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/state/users/reducers.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/state/rootReducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/state/users/consts.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/axios/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="76" column="2" selection-start-line="76" selection-start-column="2" selection-end-line="76" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/state/users/thunks.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Cards/types.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/state/users/actions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Search/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/state/users/types.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
